@@ -1,0 +1,21 @@
+{
+    "name": "Pgm API",
+    // "initializeCommand": "sh .devcontainer/initialize.sh",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.vscode-pylance",
+                "ms-python.python"
+            ],
+            "settings": {
+            }
+        }
+    },
+
+    "forwardPorts": [
+        3306
+    ]
+}
